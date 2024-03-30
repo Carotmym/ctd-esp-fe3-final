@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 import Form from '../Components/Form'
 
@@ -5,7 +6,7 @@ import Form from '../Components/Form'
 
 const Contact = () => {
   return (
-    <div>
+    <div className='contacto'>
       <h2>Want to know more?</h2>
       <p>Send us your questions and we will contact you</p>
       <Form/>
